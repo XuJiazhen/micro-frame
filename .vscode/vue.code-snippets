@@ -1,0 +1,17 @@
+{
+  "vue-setup-sass": {
+    "prefix": "vue-setup-sass",
+    "body": [
+      "<script setup lang='ts'>",
+      "</script>\n",
+      "<template>",
+      "\t<div>\n",
+      "\t</div>",
+      "</template>\n",
+      "<style scoped lang='scss'>\n",
+      "</style>",
+      "$2"
+    ],
+    "description": "Vue3.2+"
+  }
+}
