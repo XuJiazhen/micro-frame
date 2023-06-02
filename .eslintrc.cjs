@@ -46,7 +46,6 @@ module.exports = {
     }
   ],
   rules: {
-    'no-var': 'error',
     'no-console': isDev ? 'off' : 'warn',
     'no-debugger': isDev ? 'off' : 'warn',
     'prettier/prettier': 'error',

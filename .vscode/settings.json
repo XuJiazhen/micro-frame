@@ -1,25 +1,17 @@
 {
-  "eslint.format.enable": true,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
   "editor.formatOnPaste": false,
   "editor.tabSize": 2,
   "editor.suggestSelection": "first",
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
   },
-  "eslint.validate": [
-    "html",
-    "css",
-    "javascript",
-    "typescript",
-    "vue",
-    "scss",
-    "json"
-  ],
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  "eslint.format.enable": true,
+  "eslint.packageManager": "pnpm",
+  "eslint.validate": ["javascript", "typescript", "vue"],
+  "stylelint.validate": ["html", "css", "scss", "vue"],
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
