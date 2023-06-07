@@ -1,0 +1,8 @@
+{
+  "name": "@types/zzframe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "types": "index.d.ts",
+  "license": "ISC"
+}

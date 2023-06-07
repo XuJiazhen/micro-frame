@@ -1,0 +1,22 @@
+.tab_content {
+  display: flex;
+  align-items: center;
+  height: 40px;
+
+  .tab_item {
+    margin: 0.2rem;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 0.4rem;
+    color: #000;
+  }
+
+  .tab_item:hover {
+    background-color: #f3f3f3;
+  }
+
+  .tab_item_active {
+    border-bottom: 2px solid #0594fa;
+    color: #0594fa;
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "data": {
+    "list": [
+      {
+        "property": "name",
+        "label": "园区名称"
+      },
+      {
+        "property": "gid",
+        "label": "园区GID"
+      },
+      {
+        "property": "abbreviation",
+        "label": "园区简称"
+      },
+      {
+        "property": "number",
+        "label": "园区编号"
+      },
+      {
+        "property": "ecc",
+        "label": "所谓ECC"
+      },
+      {
+        "property": "city",
+        "label": "城市"
+      },
+      {
+        "property": "area",
+        "label": "区域"
+      }
+    ]
+  }
+}

@@ -1,0 +1,3 @@
+// class DataSerchConfig {
+//   static SERCHLIST = ''
+// }

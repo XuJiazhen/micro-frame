@@ -3,7 +3,6 @@
     "strict": true,
     "allowJs": false,
     "sourceMap": true,
-    "importHelpers": true,
     "experimentalDecorators": true,
     "strictFunctionTypes": false,
     "skipLibCheck": true,
@@ -13,16 +12,19 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "baseUrl": ".",
-    "target": "es2016",
+    "target": "esnext",
     "module": "esnext",
     "moduleResolution": "node",
     "jsx": "preserve",
-    "paths": {
-      "@demo/*": ["packages/demo/src/*"]
-    },
-    "lib": ["dom", "esnext"],
-    "typeRoots": ["node_modules/@types"]
+    "lib": ["esnext", "dom", "dom.iterable", "scripthost"],
+    "typeRoots": ["node_modules/@types"],
+    "types": ["element-plus/global"],
+    "noImplicitAny": false
   },
-  "include": ["packages/**/src/*.ts", "packages/**/src/*.vue"],
+  "include": [
+    "packages/apps/**/*.ts",
+    "packages/apps/**/*.vue",
+    "packages/**/*.ts"
+  ],
   "exclude": ["node_modules"]
 }

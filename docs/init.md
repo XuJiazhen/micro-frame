@@ -1,25 +1,46 @@
-# README
+# INIT
 
 ```bash
+# required
+pnpm install -Sw vue@latest element-plus pinia lodash @vueuse/core axios vue-router date-fns
+
+# webpack
+pnpm install -Dw webpack webpack-cli webpack-dev-server sass
+
+# webpack loaders
+pnpm install -Dw css-loader sass-loader postcss-loader vue-loader style-loader ts-loader
+
+# webpack plugins
+pnpm install -Dw html-webpack-plugin mini-css-extract-plugin webpack-merge
+
+# webpack babel
+pnpm install -Dw babel-loader @babel/preset-env @babel/preset-typescript @babel/core
+
+# unplugin
+pnpm install -Dw unplugin-auto-import unplugin-vue-components
+
+# types
+pnpm install -Dw @types/node @types/webpack
+
 # tools
-pnpm install -D rimraf
+pnpm install -Dw rimraf npm-run-all
 
 # eslint: ./eslintrc.cjs
-pnpm install -D eslint
-pnpm install -D eslint-plugin-vue vue-eslint-parser
-pnpm install -D typescript @typescript-eslint/eslint-plugin @typescript-eslint/parser
-pnpm install -D prettier eslint-plugin-prettier eslint-config-prettier
-pnpm install -D eslint-plugin-html
+pnpm install -Dw eslint
+pnpm install -Dw eslint-plugin-vue vue-eslint-parser
+pnpm install -Dw typescript @typescript-eslint/eslint-plugin @typescript-eslint/parser
+pnpm install -Dw prettier eslint-plugin-prettier eslint-config-prettier
+pnpm install -Dw eslint-plugin-html
 
 # stylelint: ./.stylelintrc.cjs
-pnpm install -D stylelint stylelint-order stylelint-prettier stylelint-config-standard stylelint-config-html stylelint-config-recess-order
-pnpm install -D stylelint-config-recommended-vue
-pnpm install -D stylelint-scss stylelint-config-standard-scss stylelint-config-recommended-scss
-pnpm install -D postcss postcss-html postcss-scss
+pnpm install -Dw stylelint stylelint-order stylelint-prettier stylelint-config-standard stylelint-config-html stylelint-config-recess-order
+pnpm install -Dw stylelint-config-recommended-vue
+pnpm install -Dw stylelint-scss stylelint-config-standard-scss stylelint-config-recommended-scss
+pnpm install -Dw postcss postcss-html postcss-scss
 
 # commitlint: ./commitlint.config.cjs
-pnpm install -D husky lint-staged pretty-quick
-pnpm install -D @commitlint/cli @commitlint/config-conventional
+pnpm install -Dw husky lint-staged pretty-quick
+pnpm install -Dw @commitlint/cli @commitlint/config-conventional
 # steps:
 # 1.在 package.json 的 scripts 中 添加 "prepare": "husky install"
 # 2.在 package.json 的 scripts 中 添加 "lint:lint-staged": "lint-staged -c ./.husky/.lintstagedrc.cjs",

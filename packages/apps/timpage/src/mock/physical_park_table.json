@@ -1,0 +1,24 @@
+{
+  "data": {
+    "list": [
+      {
+        "name": "名称1",
+        "gid": "gid",
+        "abbreviation": "abbreviation",
+        "number": "number",
+        "eoc": "eoc",
+        "city": "city",
+        "area": "area"
+      },
+      {
+        "name": "名称2",
+        "gid": "gid2",
+        "abbreviation": "abbreviation2",
+        "number": "number2",
+        "eoc": "eoc2",
+        "city": "city2",
+        "area": "area2"
+      }
+    ]
+  }
+}
